@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    h1{
+    color: orange;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.navbar{
+    /* margin:10px; */
+    padding:10px;
+    border: 1px solid black;
+    font-size: larger;
+}

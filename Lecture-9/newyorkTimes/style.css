@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    display: grid;
+    width: 1400px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    /* border: 1px solid black; */
+    height: 250px;
+    margin: auto;
+}
+
+/* .nav-item{
+    border: 1px solid black;
+} */
+
+.categories{
+    grid-column: 1/-1;
+}
+
+.todaysDate{
+    font-weight: 800;
+}
+
+.flexbox{
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icons{
+    width: 100%;
+}
+
+.dateDetails{
+    font-size: 20px;
+}
+
+.date{
+    padding: 10px
+}
+
+
+.flexNewyorkTimes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    height: 100%;
+}
+
+.languages{
+    width: 100%;
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.international{
+    font-weight: 800;
+}
+
+.subscribeButtons,
+.weatherForecast{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.navButton{
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(86, 123, 149);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.subscribeButtons{
+    margin-top: 10px;
+}
+.temprature{
+    width: 100%;
+}
+.weatherForecast{
+    margin-top: 40px;
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    gap: 10px 20px;
+    align-items: center;
+}
+
+.magazine{
+    border-right: 2px solid #ccc;
+    padding-right: 25px;
+}
+
+.hr{
+    height: 0;
+    width: 100%;
+}
+
+.categories{
+    border-top: 2px solid #ccc;
+}
+
+
+/* NEWS SECTION */
+.containerNewsArticles{
+    width: 1200px;
+    margin: auto;
+    margin-top: 15px;
+}
+.newsSectionA,
+.newsSectionB{
+    /* border: 1px solid black; */
+    /* height: 300px; */
+    display: inline-block;
+}
+
+.newsSectionA{
+    float: left;
+    width: 70%;
+}
+
+.newsSectionB{
+    float: right;
+    width: 29%;
+}
+.newSectionA_1{
+    padding: 5px;
+    margin-bottom: 20px;
+    /* border: 2px solid palevioletred; */
+}
+.nsaContentA{
+    display: inline-block;
+    width: 35%;
+    float: left;
+}
+
+.nsaContentAImage{
+    display: inline-block;
+    width: 59%;
+    float: right;
+}
+
+.clearfix{
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,h5{
+    font-family: sans-serif;
+}
+
+.nsaContentAHeading{
+    margin-bottom: 20px;
+}
+
+.nsaContentAList{
+    /* border: 1px solid black; */
+    list-style-position: outside;
+}
+
+li{
+    margin-bottom: 10px;
+    color: rgb(93, 93, 93);
+}
+
+.readTime{
+    text-transform: uppercase;
+    color: rgb(93, 93, 93);
+}
+
+
+.nsaContentAImage small{
+    float: right;
+    font-size: 10px;
+    color: rgb(93, 93, 93);
+}
+.newsSectionB_1{
+    padding: 5px;
+}
+.newsSectionB_1 small{
+    float: right;
+    font-size: 10px;
+    color: rgb(93, 93, 93);
+}
+
+.newSectionB_1Details{
+    width: 80%;
+}
+
+.newSectionB_1Details h2{
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.newSectionB_1DetailsPara{
+    font-family: sans-serif;
+    color: rgb(93, 93, 93);
+    margin-top: 15px;
+}
+
+/* newSectionA_2 //////////////////////////////////////*/
+.newSectionA_2{
+    display: grid;
+    grid-template-rows: minmax(30px,1fr) minmax(30px,1fr);
+    grid-template-columns: 4fr 6fr;
+    grid-template-areas: 
+    "news1 news3"
+    "news2 news3";
+    margin-top: 20px;
+}
+
+.secA_2_1,
+.secA_2_2,
+.secA_2_3{
+    /* border: 1px solid black; */
+}
+
+.secA_2_1{
+    grid-area: news1;
+}
+.secA_2_2{
+    grid-area: news2;
+}
+.secA_2_3{
+    grid-area: news3;
+}
+.secA_2_2 h3{
+    margin-top: 5px;
+}
+/* newSectionA_2 //////////////////////////////////////*/
+
+
