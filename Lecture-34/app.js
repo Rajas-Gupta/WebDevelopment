@@ -6,7 +6,7 @@ const PORT=4444;
 
 hbs.registerPartials(path.join(__dirname, 'views/partials'));
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use('/',express.static(path.join(__dirname, 'public')));
 app.set('view engine', 'hbs');
 // app.set('views','view');
 app.use(express.urlencoded({ extended:true }));
